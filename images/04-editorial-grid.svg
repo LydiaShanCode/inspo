@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1100" width="800" height="1100" role="img" aria-label="Editorial Grid placeholder">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#fdf6e3"/>
+      <stop offset="100%" stop-color="#b91c1c"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1100" fill="url(#g)"/>
+  <circle cx="576" cy="308" r="176" fill="#ffffff" fill-opacity="0.16"/>
+  <rect x="64" y="682" width="368" height="6" fill="#ffffff" fill-opacity="0.55"/>
+  <text x="64" y="792" font-family="ui-sans-serif, Helvetica, Arial, sans-serif" font-size="44" fill="#ffffff" fill-opacity="0.9">Editorial Grid</text>
+</svg>

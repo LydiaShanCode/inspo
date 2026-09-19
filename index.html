@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>inspo — a visual inspiration diary</title>
+    <meta
+      name="description"
+      content="Visual inspiration diary — image-forward design references, motion work, and creative bookmarks."
+    />
+    <meta property="og:title" content="inspo — a visual inspiration diary" />
+    <meta
+      property="og:description"
+      content="Image-forward design references, motion work, and creative bookmarks."
+    />
+    <meta property="og:type" content="website" />
+    <link rel="icon" href="images/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#grid">Skip to entries</a>
+
+    <header class="masthead">
+      <div class="masthead__bar">
+        <p class="wordmark">inspo</p>
+        <button
+          id="theme-toggle"
+          class="theme-toggle"
+          type="button"
+          aria-pressed="true"
+          title="Toggle light and dark"
+        >
+          <span aria-hidden="true" data-theme-icon>◐</span>
+          <span class="visually-hidden">Toggle light and dark theme</span>
+        </button>
+      </div>
+
+      <h1 class="masthead__title">A visual inspiration diary.</h1>
+      <p class="masthead__lede">
+        Design references, motion work, and creative bookmarks — collected as they
+        catch my eye.
+      </p>
+
+      <nav class="filters" aria-label="Filter entries by tag">
+        <ul id="filters" class="filters__list"></ul>
+      </nav>
+    </header>
+
+    <main>
+      <div id="grid" class="grid" tabindex="-1">
+        <p id="grid-status" class="grid__status">Loading entries…</p>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <p>
+        Built with plain HTML and CSS, deployed from
+        <code>main</code> with GitHub Actions.
+      </p>
+      <p>
+        <a href="https://github.com/LydiaShanCode/inspo">Source on GitHub</a>
+      </p>
+    </footer>
+
+    <dialog id="lightbox" class="lightbox" aria-label="Entry preview">
+      <button
+        class="lightbox__close"
+        type="button"
+        data-close
+        aria-label="Close preview"
+      >
+        ×
+      </button>
+      <figure class="lightbox__figure">
+        <img id="lightbox-image" alt="" />
+        <figcaption>
+          <h2 id="lightbox-title"></h2>
+          <p id="lightbox-note"></p>
+          <a id="lightbox-source" class="lightbox__source" rel="noreferrer"></a>
+        </figcaption>
+      </figure>
+    </dialog>
+
+    <script src="app.js" type="module"></script>
+  </body>
+</html>
