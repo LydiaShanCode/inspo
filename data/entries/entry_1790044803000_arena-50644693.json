@@ -1,0 +1,23 @@
+{
+  "id": "entry_1790044803000_arena-50644693",
+  "title": "Thinking orbs — AI loading indicators",
+  "type": "link",
+  "images": [
+    "/uploads/arena-50644693.jpg"
+  ],
+  "sourceUrl": "https://libraries.dev/orbs.html",
+  "tags": [
+    "orb",
+    "loading",
+    "ai",
+    "canvas",
+    "animation",
+    "arena",
+    "helpful-code-design-tools"
+  ],
+  "category": "motion",
+  "note": "Thought-orb loading indicators for AI interfaces. Nine hand-tuned animated states on a 2D canvas. Try them live and install thinking-orbs from npm.\n\nFrom Are.na — channel: Helpful Code/design Tools",
+  "capturedDate": "2026-09-22T02:40:03Z",
+  "createdAt": "2026-09-22T02:40:03Z",
+  "updatedAt": "2026-09-22T02:40:03Z"
+}

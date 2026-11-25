@@ -1,0 +1,22 @@
+{
+  "id": "entry_1769617736000_arena-43069768",
+  "title": "Motion-Primitives animated background",
+  "type": "link",
+  "images": [
+    "/uploads/arena-43069768.jpg"
+  ],
+  "sourceUrl": "https://motion-primitives.com/docs/animated-background",
+  "tags": [
+    "animated-background",
+    "hover",
+    "components",
+    "react",
+    "arena",
+    "helpful-code-design-tools"
+  ],
+  "category": "motion",
+  "note": "Visually highlights selected items by sliding a background into view when hovered over or clicked. This smooth transition helps users focus on the active item, making it ideal for interactive lists, menus, or navigations where clear selection feedback is important. Built for React, Next.js, and Tailwind CSS.\n\nFrom Are.na — channel: Helpful Code/design Tools",
+  "capturedDate": "2026-01-28T16:28:56Z",
+  "createdAt": "2026-01-28T16:28:56Z",
+  "updatedAt": "2026-01-28T16:28:56Z"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "entry_1791842299000_dot-send-animation",
+  "title": "Chat send animation with three-dot thinking indicator",
+  "type": "screenshot",
+  "images": ["/uploads/dot-send-animation-poster.jpg"],
+  "videos": ["/uploads/dot-send-animation.mp4"],
+  "category": "motion",
+  "tags": ["chat", "send", "message-bubble", "typing-indicator", "dots", "thinking", "ai-chat", "ease-out", "light-mode", "mobile", "micro-interaction"],
+  "note": "Text send animation (Lydia called it ChatGPT dots; the header in the clip reads 'dot'). On send the blue pill bubble pops in above the input and eases up into the thread, pushing history with it, then three grey dots pulse on the left while the header says Thinking, and swap straight to the reply.",
+  "capturedDate": "2026-10-12",
+  "createdAt": "2026-10-12T21:58:19Z",
+  "updatedAt": "2026-10-12T21:58:19Z"
+}

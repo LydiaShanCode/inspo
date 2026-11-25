@@ -1,0 +1,12 @@
+{
+  "id": "entry_1791250016000_voice-picker",
+  "title": "Voice AI settings: glowing voice tile carousel",
+  "type": "screenshot",
+  "images": ["/uploads/voice-picker-buttery.png", "/uploads/voice-picker-airy.png"],
+  "category": "motion",
+  "tags": ["voice", "voice-ai", "carousel", "picker", "glow", "ambient", "dark-mode", "mobile", "settings", "bottom-sheet", "personality"],
+  "note": "Lydia: Voice AI motion interaction. A dark mobile Voice settings bottom sheet with a horizontal carousel of rounded-square voice tiles (Buttery, Airy, Mellow, and more, with page dots). The centered tile is larger, and each voice gets its own soft light glowing up from the bottom of the tile: a warm amber glow with a copper rim for Buttery, a faint smoky glow for Airy. Neighboring tiles shrink and peek in from the edges. Below, plain grouped rows for Model, Language (Beta), Speed, and a Hands free / Push to talk mode choice. The voice's character is shown through light instead of a waveform or label.",
+  "capturedDate": "2026-10-05",
+  "createdAt": "2026-10-06T01:26:56Z",
+  "updatedAt": "2026-10-06T01:26:56Z"
+}

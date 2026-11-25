@@ -1,0 +1,19 @@
+{
+  "id": "entry_1766083782000_arena-41896312",
+  "title": "Panda CSS — styling engine notes",
+  "type": "note",
+  "images": [],
+  "tags": [
+    "css",
+    "design-tokens",
+    "styling",
+    "developer-tools",
+    "arena",
+    "helpful-code-design-tools"
+  ],
+  "category": "UI",
+  "note": "Panda is a styling engine that generates styling primitives to author atomic CSS and recipes in a type-safe and readable\nmanner.\n\nPanda combines the developer experience of CSS-in-JS and the performance of atomic CSS. It leverages static analysis to\nscan your JavaScript and TypeScript files for JSX style props and function calls, generating styles on-demand (aka\nJust-in-Time)\n\n> TLDR; Panda is a CSS-in-JS engine that generates atomic CSS at build time (via CLI or PostCSS)\n\n## Installation\n\n### General Guides\n\n- [Panda CLI](/docs/installation/cli): The simplest way to use Panda is with the Panda CLI tool.\n\n- [Using PostCSS](/docs/installation/postcss): (**Recommended**) Installing Panda as a PostCSS plugin is the recommended\n  way to integrate it with your project.\n\n### Framework Guides\n\nStart using Panda CSS in your JavaScript framework using our framework-specific guides that cover our recommended\napproach.\n\n<FrameworkCards />\n\n## Next Steps\n\nGet familiar with the core features and concepts in Panda.\n\n<Cards>\n  <Card\n    arrow\n    title=\"Tokens\"\n    description=\"Learn how setup and customize design tokens to customize your colors, typography, and more\"\n    href=\"/docs/theming/tokens\"\n  />\n  <Card\n    arrow\n    title=\"Recipes\"\n    description=\"Create composable style variants that are typed and generates the atomic or layer recipe\"\n    href=\"/docs/concepts/recipes\"\n  />\n  <Card\n    arrow\n    title=\"Patterns\"\n    description=\"Use the built-in layout patterns like stack, flex, grid to speed up your development\"\n    href=\"/docs/concepts/patterns\"\n  />\n  <Card\n    arrow\n    title=\"Utilities\"\n    description=\"Learn how to create your own custom css properties and speed up your development\"\n    href=\"/docs/customization/utilities\"\n  />\n</Cards>\n\n## Playground\n\nYou can use the [online playground](https://play.panda-css.com) to get a taste of what Panda can do.\n\n- See the live results of your JSX code\n- Inspect what panda can extract using static analysis from your code\n- Preview the statically generated `.css` files\n\n## Acknowledgement\n\nThe development of Panda was only possible due to the inspiration and ideas from these amazing projects.\n\n- [Chakra UI](https://chakra-ui.com/) - where it all started\n- [Vanilla Extract](https://vanilla-extract.style/) - for inspiring the utilities API\n- [Stitches](https://stitches.dev/) - for inspiring the recipes and variants API\n- [Tailwind CSS](https://tailwindcss.com/) - for inspiring the JIT compiler and strategy\n- [Class Variance Authority](https://cva.style/) - for inspiring the `cva` name\n- [Styled System](https://styled-system.com/) - for the initial idea of Styled Props\n- [Linaria](https://linaria.dev/) - for inspiring the initial atomic css strategy\n- [Uno CSS](https://unocss.dev) - for inspiring the studio and astro integration\n\nFrom Are.na — channel: Helpful Code/design Tools",
+  "capturedDate": "2025-12-18T18:49:42Z",
+  "createdAt": "2025-12-18T18:49:42Z",
+  "updatedAt": "2025-12-18T18:49:42Z"
+}

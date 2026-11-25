@@ -1,0 +1,19 @@
+{
+  "id": "entry_1787975278686_allhra9mb",
+  "title": "Notion calendar empty state",
+  "type": "screenshot",
+  "images": [
+    "https://placehold.co/1200x850/ffffff/cccccc?text=Empty+State"
+  ],
+  "sourceUrl": "https://notion.com/calendar",
+  "tags": [
+    "empty-state",
+    "onboarding",
+    "illustration"
+  ],
+  "category": "product",
+  "note": "Empty states that guide users without feeling pushy. Clear CTA but doesn't overwhelm.",
+  "capturedDate": "2026-08-18T16:45:00Z",
+  "createdAt": "2026-08-29T03:47:58.686Z",
+  "updatedAt": "2026-08-29T03:47:58.686Z"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "entry_1768691619000_arena-42742027",
+  "title": "React Three Fiber",
+  "type": "link",
+  "images": [
+    "/uploads/arena-42742027.jpg"
+  ],
+  "sourceUrl": "https://r3f.docs.pmnd.rs/getting-started/introduction",
+  "tags": [
+    "3d",
+    "react",
+    "threejs",
+    "webgl",
+    "library",
+    "arena",
+    "helpful-code-design-tools"
+  ],
+  "category": "motion",
+  "note": "React-three-fiber is a React renderer for three.js.\n\nFrom Are.na — channel: Helpful Code/design Tools",
+  "capturedDate": "2026-01-17T23:13:39Z",
+  "createdAt": "2026-01-17T23:13:39Z",
+  "updatedAt": "2026-01-17T23:13:39Z"
+}

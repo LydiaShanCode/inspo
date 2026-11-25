@@ -1,0 +1,31 @@
+{
+  "id": "entry_1790308511000_amp-orb",
+  "title": "Amp orb: AI-generating status animation",
+  "type": "screenshot",
+  "category": "motion",
+  "images": [
+    "/uploads/amp-orb-poster.jpg"
+  ],
+  "videos": [
+    "/uploads/amp-orb.mp4"
+  ],
+  "sourceUrl": "https://ampcode.com",
+  "tags": [
+    "micro-animation",
+    "loading",
+    "status-indicator",
+    "ai-generating",
+    "orb",
+    "wireframe",
+    "gyroscope",
+    "pulse",
+    "icon",
+    "sidebar",
+    "bronze",
+    "amp"
+  ],
+  "capturedDate": "2026-09-25T03:55:11Z",
+  "createdAt": "2026-09-25T03:55:11Z",
+  "updatedAt": "2026-09-25T03:55:11Z",
+  "note": "Lydia: \"Amp orb animation - ai gen animation\". The small icon next to a thread in Amp's sidebar while the AI is running (tooltip starts \"Orb is run...\"). It's a wireframe sphere of 3-4 crossing rings in warm bronze, like a gyroscope. It loops about every 4 seconds: crisp rings, fade to faint, then the rings spin on several axes into a thick jumbled tangle, fade again, and snap back to crisp. Snappy easing, no glow or particles; the energy comes from opacity and the chaotic spin."
+}

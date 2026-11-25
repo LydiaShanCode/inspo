@@ -1,0 +1,31 @@
+{
+  "id": "entry_1790308017000_amp-chronicles",
+  "title": "Amp Chronicles release-notes pop-up",
+  "type": "screenshot",
+  "category": "motion",
+  "images": [
+    "/uploads/amp-chronicles-poster.jpg"
+  ],
+  "videos": [
+    "/uploads/amp-chronicles.mp4"
+  ],
+  "sourceUrl": "https://ampcode.com",
+  "tags": [
+    "micro-animation",
+    "release-notes",
+    "whats-new",
+    "popup",
+    "changelog",
+    "card-transition",
+    "collapse-expand",
+    "spring",
+    "hover-3d",
+    "sprite",
+    "amp",
+    "product-updates"
+  ],
+  "capturedDate": "2026-09-25T03:46:57Z",
+  "createdAt": "2026-09-25T03:46:57Z",
+  "updatedAt": "2026-09-25T03:46:57Z",
+  "note": "Lydia: \"micro animation in amp - amp chronicles (new releases pop-up)\". What's-new card in the Amp app. Clicking x collapses the card down into a small \"AMP CHRONICLE 2\" pill (ease-in slide and fade); clicking the pill springs it back up (ease-out). The down caret swaps release notes: old content slides up and fades while the new one slides in from below, container stays put, counter ticks 2 to 1. A painted traveler sprite walks in place on top of the card, the header art has drifting clouds and bobbing black cubes, and hovering the image makes the big cube rotate to follow the cursor. Soft gray circle hover states on the caret and close icons. Best moments: collapse 0:06, re-open 0:09, card swap 0:14, cube hover 0:16-0:28."
+}

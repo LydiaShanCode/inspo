@@ -1,0 +1,36 @@
+{
+  "id": "entry_1790308228000_amp-mode-knob",
+  "title": "Amp mode selector: skeuomorphic hardware knob",
+  "type": "screenshot",
+  "category": "UI",
+  "images": [
+    "/uploads/amp-mode-knob.jpg",
+    "/uploads/amp-mode-knob-full.jpg"
+  ],
+  "sourceUrl": "https://ampcode.com",
+  "tags": [
+    "skeuomorphism",
+    "knob",
+    "dial",
+    "hardware",
+    "brushed-metal",
+    "lcd",
+    "readout",
+    "toggle",
+    "model-picker",
+    "dropdown",
+    "retro",
+    "amp",
+    "micro-animation",
+    "spring",
+    "snap",
+    "text-scramble"
+  ],
+  "capturedDate": "2026-09-25T03:50:28Z",
+  "createdAt": "2026-09-25T03:50:28Z",
+  "updatedAt": "2026-09-25T03:53:30Z",
+  "note": "Lydia: \"Skemorphism in amp model selector\". The Choose a Mode dropdown in Amp shows a physical-hardware panel above the plain text list: brushed dark metal plate with corner screws, a big knurled rotary knob with tick marks and LOW / MED / HIGH / ULTRA labels, a glowing green LED on the active setting, a FAST toggle switch next to a $ slot, and a green dot-matrix LCD readout (AGENT GPT-5.6 SOL MED, ORACLE GPT-6 ASTRA X-HIGH). Contrast of the tactile panel against the flat, quiet list below is the good part.\n\nVideo: dragging the knob snaps it to each tick with a small overshoot and spring back; the active label lights up in its own color (LOW yellow, MED green, HIGH blue, ULTRA purple) with a glowing dot. The LCD AGENT line changes with a quick character-scramble decode. Knob and list are synced both ways: drag the knob and the list highlight and dropdown pill follow; click \"medium\" in the list and the knob drives itself back with an ease-in-out and a bounce. FAST is a rigid rocker switch that clacks over, shows a yellow stripe and pops a \"2x\" badge by the $ slot (tooltip: \"Costs 2x the standard rate for this mode\"). Raw Models tab swaps the panel for a plain list. Dropdown closes with a fade and slight scale-down. Best moments: knob drag 0:02-0:05, FAST tooltip 0:11, list-driven knob 0:20, FAST toggling 0:22-0:30.",
+  "videos": [
+    "/uploads/amp-mode-knob.mp4"
+  ]
+}

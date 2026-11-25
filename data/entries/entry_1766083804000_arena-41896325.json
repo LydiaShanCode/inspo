@@ -1,0 +1,23 @@
+{
+  "id": "entry_1766083804000_arena-41896325",
+  "title": "Radix toggle group",
+  "type": "link",
+  "images": [
+    "/uploads/arena-41896325.jpg"
+  ],
+  "sourceUrl": "https://www.radix-ui.com/primitives/docs/components/toggle-group",
+  "tags": [
+    "components",
+    "toggle",
+    "primitives",
+    "radix",
+    "accessibility",
+    "arena",
+    "helpful-code-design-tools"
+  ],
+  "category": "UI",
+  "note": "A set of two-state buttons that can be toggled on or off.\n\nFrom Are.na — channel: Helpful Code/design Tools",
+  "capturedDate": "2025-12-18T18:50:04Z",
+  "createdAt": "2025-12-18T18:50:04Z",
+  "updatedAt": "2025-12-18T18:50:04Z"
+}

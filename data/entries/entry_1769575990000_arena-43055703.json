@@ -1,0 +1,23 @@
+{
+  "id": "entry_1769575990000_arena-43055703",
+  "title": "Ripple distortion shader tutorial",
+  "type": "link",
+  "images": [
+    "/uploads/arena-43055703.jpg"
+  ],
+  "sourceUrl": "https://blog.olivierlarose.com/tutorials/ripple-shader",
+  "tags": [
+    "shader",
+    "ripple",
+    "threejs",
+    "tutorial",
+    "webgl",
+    "arena",
+    "helpful-code-design-tools"
+  ],
+  "category": "motion",
+  "note": "A website animation tutorial featuring a ripple shader effect using React Three Fiber, Next.js and React. Inspired by https://homunculus.jp/ and Yuri Artiukh.\n\nFrom Are.na — channel: Helpful Code/design Tools",
+  "capturedDate": "2026-01-28T04:53:10Z",
+  "createdAt": "2026-01-28T04:53:10Z",
+  "updatedAt": "2026-01-28T04:53:10Z"
+}

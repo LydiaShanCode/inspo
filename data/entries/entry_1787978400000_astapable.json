@@ -1,0 +1,24 @@
+{
+  "id": "entry_1787978400000_astapable",
+  "title": "Astapable About — Evgenii Astapov",
+  "type": "link",
+  "images": [
+    "/uploads/astapable-about-hero.png",
+    "/uploads/astapable-about-2.png",
+    "/uploads/astapable-about-fullpage.png"
+  ],
+  "sourceUrl": "https://astapable.com/about",
+  "tags": [
+    "portfolio",
+    "about-page",
+    "personal-brand",
+    "editorial",
+    "bento",
+    "audio"
+  ],
+  "category": "brand",
+  "note": "Personal about page treated like a product. Outcome carousel (1.5M+ registrations) instead of adjectives; section labels as code comments (`/* My toolkit */`); outside-of-work bento that mimics OS widgets (Photos, Maps, PlayStation, YouTube); persistent \"Vibing with Ev\" audio pill. Swiss-minimal black type on near-white, with small alive details (live clock, version stamp, morphing cutout).",
+  "capturedDate": "2026-08-29T16:49:00Z",
+  "createdAt": "2026-08-29T16:49:00Z",
+  "updatedAt": "2026-08-29T16:49:00Z"
+}

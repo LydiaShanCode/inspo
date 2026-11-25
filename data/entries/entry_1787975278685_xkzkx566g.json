@@ -1,0 +1,19 @@
+{
+  "id": "entry_1787975278685_xkzkx566g",
+  "title": "Stripe loading state micro-interaction",
+  "type": "screenshot",
+  "images": [
+    "https://placehold.co/1200x800/2563eb/ffffff?text=Loading+Animation"
+  ],
+  "sourceUrl": "https://stripe.com/payments",
+  "tags": [
+    "loading",
+    "micro-interaction",
+    "skeleton"
+  ],
+  "category": "motion",
+  "note": "Love how their loading states feel purposeful rather than blocking. Skeleton screens that actually match the final layout.",
+  "capturedDate": "2026-08-29T03:47:58.685Z",
+  "createdAt": "2026-08-29T03:47:58.685Z",
+  "updatedAt": "2026-08-29T03:47:58.685Z"
+}

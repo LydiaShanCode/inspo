@@ -1,0 +1,25 @@
+{
+  "id": "entry_1789767904569_heyclicky",
+  "title": "heyclicky site footer",
+  "type": "link",
+  "category": "motion",
+  "tags": [
+    "footer",
+    "motion",
+    "webgl",
+    "physics",
+    "3d",
+    "easter-egg",
+    "landing",
+    "playful",
+    "typography",
+    "web-design"
+  ],
+  "images": [
+    "/uploads/heyclicky-footer.png"
+  ],
+  "url": "https://www.heyclicky.com/",
+  "note": "Interactive footer with giant 'heyclicky' wordmark built from draggable 3D WebGL cubes. Physics-based interaction allows dropping cubes into a trash can (pieces stay missing). Blue folder icon opens video modal overlay. 4-column minimal nav above (product/resources/connect/disclaimer) on light gray.",
+  "createdAt": 1789767904569,
+  "updatedAt": 1789768198626
+}

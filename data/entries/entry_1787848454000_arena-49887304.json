@@ -1,0 +1,22 @@
+{
+  "id": "entry_1787848454000_arena-49887304",
+  "title": "Component Gallery — badge",
+  "type": "link",
+  "images": [
+    "/uploads/arena-49887304.jpg"
+  ],
+  "sourceUrl": "https://component.gallery/components/badge/",
+  "tags": [
+    "badge",
+    "components",
+    "reference",
+    "design-system",
+    "arena",
+    "helpful-code-design-tools"
+  ],
+  "category": "UI",
+  "note": "A small label, generally appearing inside or in close proximity to another larger interface component, representing a status, property, or some other metadata.\n\nFrom Are.na — channel: Helpful Code/design Tools",
+  "capturedDate": "2026-08-27T16:34:14Z",
+  "createdAt": "2026-08-27T16:34:14Z",
+  "updatedAt": "2026-08-27T16:34:14Z"
+}

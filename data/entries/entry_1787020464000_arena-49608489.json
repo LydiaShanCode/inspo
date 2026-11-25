@@ -1,0 +1,22 @@
+{
+  "id": "entry_1787020464000_arena-49608489",
+  "title": "Shader Lab — basement.studio",
+  "type": "link",
+  "images": [
+    "/uploads/arena-49608489.jpg"
+  ],
+  "sourceUrl": "https://eng.basement.studio/tools/shader-lab",
+  "tags": [
+    "shaders",
+    "webgl",
+    "toolkit",
+    "basement",
+    "arena",
+    "helpful-code-design-tools"
+  ],
+  "category": "motion",
+  "note": "A powerful toolkit to create, stack, and animate shaders.\n\nFrom Are.na — channel: Helpful Code/design Tools",
+  "capturedDate": "2026-08-18T02:34:24Z",
+  "createdAt": "2026-08-18T02:34:24Z",
+  "updatedAt": "2026-08-18T02:34:24Z"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "entry_1787975278683_k8nb38j73",
+  "title": "Linear changelog design",
+  "type": "screenshot",
+  "images": [
+    "https://placehold.co/1200x900/1a1a1a/808080?text=Linear+Changelog"
+  ],
+  "sourceUrl": "https://linear.app/changelog",
+  "tags": [
+    "changelog",
+    "dark-mode",
+    "minimal"
+  ],
+  "category": "UI",
+  "note": "Beautiful changelog layout with clean typography and subtle animations. The way they handle version numbers and dates is perfect.",
+  "capturedDate": "2026-08-25T10:30:00Z",
+  "createdAt": "2026-08-29T03:47:58.683Z",
+  "updatedAt": "2026-08-29T03:47:58.683Z"
+}

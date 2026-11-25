@@ -1,0 +1,23 @@
+{
+  "id": "entry_1767728330000_arena-42422192",
+  "title": "Paper Shaders",
+  "type": "link",
+  "images": [
+    "/uploads/arena-42422192.jpg"
+  ],
+  "sourceUrl": "https://shaders.paper.design/",
+  "tags": [
+    "shaders",
+    "webgl",
+    "react",
+    "gradient",
+    "generative",
+    "arena",
+    "helpful-code-design-tools"
+  ],
+  "category": "motion",
+  "note": "Shaders for you to use in your projects, as React components or GLSL.\n\nFrom Are.na — channel: Helpful Code/design Tools",
+  "capturedDate": "2026-01-06T19:38:50Z",
+  "createdAt": "2026-01-06T19:38:50Z",
+  "updatedAt": "2026-01-06T19:38:50Z"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "entry_1791221610000_luma-marketing",
+  "title": "Luma marketing hero: circular portal reveals alternate themes",
+  "type": "screenshot",
+  "images": ["/uploads/luma-marketing-poster.jpg"],
+  "videos": ["/uploads/luma-marketing.mp4"],
+  "sourceUrl": "https://lu.ma",
+  "category": "motion",
+  "tags": ["marketing", "hero", "portal", "circular-mask", "clip-path", "theme-swap", "masonry", "event-cards", "mesh-gradient", "warp", "luma"],
+  "note": "Lydia: cool animation on marketing site from luma. Hero section with the headline Delightful events start here and a floating masonry grid of event cards on white. A circular clipping mask expands from the center like a portal (never fills the whole screen), and inside it the page flips to an alternate theme: Stellar (dark warp-speed streaks, white type, nightlife cards) then Vivid (fluid magenta/orange/purple mesh gradient, party cards), while the adjective in the headline swaps to match. Each cycle expands in about half a second, holds roughly two seconds, then contracts. The mask swaps the background, the cards, and specific words in the type at once, so it feels like peering through a hole into a parallel page rather than a simple color fade.",
+  "capturedDate": "2026-10-05",
+  "createdAt": "2026-10-05T17:33:30Z",
+  "updatedAt": "2026-10-05T17:33:30Z"
+}

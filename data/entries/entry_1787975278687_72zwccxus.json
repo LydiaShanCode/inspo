@@ -1,0 +1,19 @@
+{
+  "id": "entry_1787975278687_72zwccxus",
+  "title": "GitHub Primer color system",
+  "type": "screenshot",
+  "images": [
+    "https://placehold.co/1200x800/238636/ffffff?text=Color+System"
+  ],
+  "sourceUrl": "https://primer.style/foundations/color",
+  "tags": [
+    "design-system",
+    "color",
+    "accessibility"
+  ],
+  "category": "UI",
+  "note": "Thorough color system with clear accessibility guidelines. Love how they document the thinking behind each decision.",
+  "capturedDate": "2026-08-10T10:00:00Z",
+  "createdAt": "2026-08-29T03:47:58.686Z",
+  "updatedAt": "2026-08-29T03:47:58.686Z"
+}

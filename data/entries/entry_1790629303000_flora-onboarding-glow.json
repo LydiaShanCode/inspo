@@ -1,0 +1,27 @@
+{
+  "id": "entry_1790629303000_flora-onboarding-glow",
+  "title": "FLORA onboarding glow: neon-green highlight ring on the project panel",
+  "type": "screenshot",
+  "category": "UI",
+  "images": [
+    "/uploads/flora-onboarding-glow.png"
+  ],
+  "sourceUrl": "https://www.flora.ai",
+  "tags": [
+    "onboarding",
+    "product-tour",
+    "coachmark",
+    "tooltip",
+    "glow",
+    "highlight",
+    "neon",
+    "green",
+    "spotlight",
+    "dark-mode",
+    "flora"
+  ],
+  "capturedDate": "2026-09-28",
+  "createdAt": "2026-09-28T21:01:43Z",
+  "updatedAt": "2026-09-28T21:01:43Z",
+  "note": "Lydia: I like this onboarding glow. From flora.ai. Step 3 of 4 in FLORA's product tour. The project switcher panel gets a soft neon-green outer glow and thin green stroke on a dark dotted canvas, instead of a dimmed overlay or spotlight cutout, and a mint-green tooltip card (dark green Next button, Back link, 3 of 4 counter) sits beside it. The glow color matches the tooltip, so the highlight and the explanation read as one unit."
+}
