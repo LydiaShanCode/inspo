@@ -6,6 +6,15 @@ import { Entry } from '@/lib/types';
 import { Play, Link as LinkIcon } from 'lucide-react';
 import { useRef, useState, useEffect } from 'react';
 
+function getHost(url?: string) {
+  if (!url) return undefined;
+  try {
+    return new URL(url).hostname.replace(/^www\./, '');
+  } catch {
+    return undefined;
+  }
+}
+
 interface EntryCardProps {
   entry: Entry;
 }
@@ -14,6 +23,7 @@ export function EntryCard({ entry }: EntryCardProps) {
   const coverImage = entry.images[0];
   const hasVideo = entry.videos && entry.videos.length > 0;
   const hasSourceUrl = !!entry.sourceUrl;
+  const sourceHost = getHost(entry.sourceUrl);
   const videoRef = useRef<HTMLVideoElement>(null);
   const [isHovering, setIsHovering] = useState(false);
   const [prefersReducedMotion, setPrefersReducedMotion] = useState(false);
@@ -79,6 +89,24 @@ export function EntryCard({ entry }: EntryCardProps) {
               )}
             </>
           )}
+
+          {!coverImage && (
+            <div className="bg-neutral-100 px-4 pt-4 pb-5 pr-10 transition-colors group-hover:bg-neutral-200/70">
+              {sourceHost && (
+                <p className="text-[11px] uppercase tracking-wide text-neutral-500 mb-2 truncate">
+                  {sourceHost}
+                </p>
+              )}
+              <h3 className="text-sm font-medium leading-snug text-neutral-900 line-clamp-4">
+                {entry.title}
+              </h3>
+              {entry.note && (
+                <p className="mt-2 text-xs leading-relaxed text-neutral-500 line-clamp-3">
+                  {entry.note}
+                </p>
+              )}
+            </div>
+          )}
           
           {/* Top-right glyph */}
           {(hasVideo || hasSourceUrl) && (
@@ -92,6 +120,7 @@ export function EntryCard({ entry }: EntryCardProps) {
           )}
           
           {/* Hover overlay */}
+          {coverImage && (
           <div className={`absolute inset-0 bg-black/60 backdrop-blur-[2px] transition-opacity duration-200 ${isHovering ? 'opacity-100' : 'opacity-0'} flex flex-col justify-end p-4`}>
             <h3 className="text-white font-medium text-sm mb-2 line-clamp-2">
               {entry.title}
@@ -111,6 +140,7 @@ export function EntryCard({ entry }: EntryCardProps) {
               </div>
             )}
           </div>
+          )}
         </div>
       </div>
     </Link>

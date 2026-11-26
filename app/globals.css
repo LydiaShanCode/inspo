@@ -47,30 +47,33 @@
 
 /* Cosmos-style masonry grid */
 .masonry-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 1rem;
-  align-items: start;
+  --masonry-gap: 1rem;
+  column-count: 2;
+  column-gap: var(--masonry-gap);
+}
+
+.masonry-grid > * {
+  break-inside: avoid;
+  margin-bottom: var(--masonry-gap);
 }
 
 @media (min-width: 640px) {
   .masonry-grid {
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1.125rem;
+    --masonry-gap: 1.125rem;
+    column-count: 3;
   }
 }
 
 @media (min-width: 1024px) {
   .masonry-grid {
-    grid-template-columns: repeat(4, 1fr);
-    gap: 1.25rem;
+    --masonry-gap: 1.25rem;
+    column-count: 4;
   }
 }
 
 @media (min-width: 1536px) {
   .masonry-grid {
-    grid-template-columns: repeat(5, 1fr);
-    gap: 1.25rem;
+    column-count: 5;
   }
 }
 
