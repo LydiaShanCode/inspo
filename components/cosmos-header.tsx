@@ -14,7 +14,7 @@ const CATEGORIES: (Category | 'All')[] = ['All', 'UI', 'motion', 'typography', '
 
 export function CosmosHeader({ searchQuery, onSearch, selectedCategory, onCategoryChange }: CosmosHeaderProps) {
   return (
-    <header className="sticky top-0 z-50 bg-white border-b border-border">
+    <header className="sticky top-0 z-50 bg-white">
       <div className="max-w-[1800px] mx-auto px-5 lg:px-6">
         <div className="flex items-center gap-6 h-16">
           {/* Logo and categories */}

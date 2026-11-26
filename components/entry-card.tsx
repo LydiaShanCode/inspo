@@ -15,8 +15,10 @@ export function EntryCard({ entry }: EntryCardProps) {
   const hasVideo = entry.videos && entry.videos.length > 0;
   const hasSourceUrl = !!entry.sourceUrl;
   const videoRef = useRef<HTMLVideoElement>(null);
+  const cardRef = useRef<HTMLAnchorElement>(null);
   const [isHovering, setIsHovering] = useState(false);
   const [prefersReducedMotion, setPrefersReducedMotion] = useState(false);
+  const [gridRowSpan, setGridRowSpan] = useState<number>(1);
 
   useEffect(() => {
     const mediaQuery = window.matchMedia('(prefers-reduced-motion: reduce)');
@@ -37,15 +39,35 @@ export function EntryCard({ entry }: EntryCardProps) {
       }
     }
   }, [isHovering, hasVideo, prefersReducedMotion]);
+
+  useEffect(() => {
+    const card = cardRef.current;
+    const img = card?.querySelector('img');
+    const grid = card?.parentElement;
+    if (!img || !grid) return;
+
+    // Grid rows are 1px with no row-gap, so span = card height + the column gap below it.
+    const updateSpan = () => {
+      const gap = parseFloat(getComputedStyle(grid).columnGap) || 0;
+      setGridRowSpan(Math.ceil(img.getBoundingClientRect().height + gap));
+    };
+
+    updateSpan();
+    const observer = new ResizeObserver(updateSpan);
+    observer.observe(img);
+    return () => observer.disconnect();
+  }, [coverImage]);
   
   return (
     <Link 
+      ref={cardRef}
       href={`/entry/${entry.id}`} 
       className="entry-card block group"
+      style={{ gridRowEnd: `span ${gridRowSpan}` }}
       onMouseEnter={() => setIsHovering(true)}
       onMouseLeave={() => setIsHovering(false)}
     >
-      <div className="relative overflow-hidden rounded-sm">
+      <div className="relative overflow-hidden rounded-lg">
         {/* Image/Video container */}
         <div className="relative w-full" style={{ aspectRatio: 'auto' }}>
           {coverImage && (
