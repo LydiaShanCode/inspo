@@ -1,0 +1,22 @@
+{
+  "id": "entry_1795410000000_tommy-trinh-site",
+  "title": "Tommy Trinh: living-status personal site",
+  "type": "link",
+  "images": [
+    "/uploads/tommy-trinh.jpg"
+  ],
+  "sourceUrl": "https://tommytrinh.me/",
+  "tags": [
+    "portfolio",
+    "personal-site",
+    "live-status",
+    "keyboard-shortcuts",
+    "are-na",
+    "interaction"
+  ],
+  "category": "UI",
+  "note": "Living-status homepage: a live age counter, Working / Listening / Reading rows, j/k and t (theme) keyboard shortcuts, and a Documenting feed of photos, quotes, films and audio pulled from Are.na. Lydia: 'so cool'.",
+  "capturedDate": "Mon 2026-11-23 12:03 AM EST (UTC-05:00)",
+  "createdAt": "Mon 2026-11-23 12:03 AM EST (UTC-05:00)",
+  "updatedAt": "Mon 2026-11-23 12:03 AM EST (UTC-05:00)"
+}
