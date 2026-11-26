@@ -15,8 +15,10 @@ export function EntryCard({ entry }: EntryCardProps) {
   const hasVideo = entry.videos && entry.videos.length > 0;
   const hasSourceUrl = !!entry.sourceUrl;
   const videoRef = useRef<HTMLVideoElement>(null);
+  const cardRef = useRef<HTMLAnchorElement>(null);
   const [isHovering, setIsHovering] = useState(false);
   const [prefersReducedMotion, setPrefersReducedMotion] = useState(false);
+  const [gridRowSpan, setGridRowSpan] = useState<number>(20);
 
   useEffect(() => {
     const mediaQuery = window.matchMedia('(prefers-reduced-motion: reduce)');
@@ -37,15 +39,45 @@ export function EntryCard({ entry }: EntryCardProps) {
       }
     }
   }, [isHovering, hasVideo, prefersReducedMotion]);
+
+  useEffect(() => {
+    const calculateRowSpan = () => {
+      if (!cardRef.current) return;
+      
+      const img = cardRef.current.querySelector('img');
+      if (!img) return;
+      
+      const updateSpan = () => {
+        const height = img.clientHeight;
+        const gap = window.innerWidth >= 1024 ? 18 : window.innerWidth >= 640 ? 16 : 12;
+        const rowHeight = 10;
+        const rowSpan = Math.ceil((height + gap) / rowHeight);
+        setGridRowSpan(rowSpan);
+      };
+      
+      if (img.complete) {
+        updateSpan();
+      } else {
+        img.addEventListener('load', updateSpan);
+        return () => img.removeEventListener('load', updateSpan);
+      }
+    };
+    
+    calculateRowSpan();
+    window.addEventListener('resize', calculateRowSpan);
+    return () => window.removeEventListener('resize', calculateRowSpan);
+  }, [coverImage]);
   
   return (
     <Link 
+      ref={cardRef}
       href={`/entry/${entry.id}`} 
       className="entry-card block group"
+      style={{ gridRowEnd: `span ${gridRowSpan}` }}
       onMouseEnter={() => setIsHovering(true)}
       onMouseLeave={() => setIsHovering(false)}
     >
-      <div className="relative overflow-hidden rounded-sm">
+      <div className="relative overflow-hidden rounded-lg">
         {/* Image/Video container */}
         <div className="relative w-full" style={{ aspectRatio: 'auto' }}>
           {coverImage && (
