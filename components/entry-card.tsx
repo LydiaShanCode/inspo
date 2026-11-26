@@ -18,7 +18,7 @@ export function EntryCard({ entry }: EntryCardProps) {
   const cardRef = useRef<HTMLAnchorElement>(null);
   const [isHovering, setIsHovering] = useState(false);
   const [prefersReducedMotion, setPrefersReducedMotion] = useState(false);
-  const [gridRowSpan, setGridRowSpan] = useState<number>(20);
+  const [gridRowSpan, setGridRowSpan] = useState<number>(1);
 
   useEffect(() => {
     const mediaQuery = window.matchMedia('(prefers-reduced-motion: reduce)');
@@ -41,31 +41,21 @@ export function EntryCard({ entry }: EntryCardProps) {
   }, [isHovering, hasVideo, prefersReducedMotion]);
 
   useEffect(() => {
-    const calculateRowSpan = () => {
-      if (!cardRef.current) return;
-      
-      const img = cardRef.current.querySelector('img');
-      if (!img) return;
-      
-      const updateSpan = () => {
-        const height = img.clientHeight;
-        const gap = window.innerWidth >= 1024 ? 18 : window.innerWidth >= 640 ? 16 : 12;
-        const rowHeight = 10;
-        const rowSpan = Math.ceil((height + gap) / rowHeight);
-        setGridRowSpan(rowSpan);
-      };
-      
-      if (img.complete) {
-        updateSpan();
-      } else {
-        img.addEventListener('load', updateSpan);
-        return () => img.removeEventListener('load', updateSpan);
-      }
+    const card = cardRef.current;
+    const img = card?.querySelector('img');
+    const grid = card?.parentElement;
+    if (!img || !grid) return;
+
+    // Grid rows are 1px with no row-gap, so span = card height + the column gap below it.
+    const updateSpan = () => {
+      const gap = parseFloat(getComputedStyle(grid).columnGap) || 0;
+      setGridRowSpan(Math.ceil(img.getBoundingClientRect().height + gap));
     };
-    
-    calculateRowSpan();
-    window.addEventListener('resize', calculateRowSpan);
-    return () => window.removeEventListener('resize', calculateRowSpan);
+
+    updateSpan();
+    const observer = new ResizeObserver(updateSpan);
+    observer.observe(img);
+    return () => observer.disconnect();
   }, [coverImage]);
   
   return (
