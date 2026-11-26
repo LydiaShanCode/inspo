@@ -1,0 +1,22 @@
+{
+  "id": "entry_1795476000000_dara-miao-site",
+  "title": "Dara Miao: portfolio with scroll-open scorecard",
+  "type": "link",
+  "images": [
+    "/uploads/dara-miao.png"
+  ],
+  "sourceUrl": "https://www.daramiao.com/",
+  "tags": [
+    "portfolio",
+    "personal-site",
+    "scroll-interaction",
+    "github-graph",
+    "storytelling",
+    "llms-txt"
+  ],
+  "category": "UI",
+  "note": "Golf-scorecard section that opens on scroll, a GitHub contribution graph, dated storytelling cards linking out to posts, and an 'Are you an agent?' link to an llms.txt.",
+  "capturedDate": "Mon 2026-11-23 6:24 PM EST (UTC-05:00)",
+  "createdAt": "Mon 2026-11-23 6:24 PM EST (UTC-05:00)",
+  "updatedAt": "Mon 2026-11-23 6:24 PM EST (UTC-05:00)"
+}
