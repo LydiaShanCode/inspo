@@ -17,7 +17,7 @@ export default function HomePage() {
 
   const fetchEntries = async () => {
     try {
-      const response = await fetch('/api/entries');
+      const response = await fetch('/data/entries.json');
       const data = await response.json();
       setEntries(data);
     } catch (error) {
