@@ -1,11 +1,51 @@
 [
   {
+    "title": "East Asian Graphics Archive",
+    "date": "2026-11-22",
+    "image": "images/east-asian-graphics-archive.png",
+    "alt": "Poster from the East Asian Graphics Archive",
+    "note": "Archive of Korean, Japanese and Chinese posters and packaging. Go-to for reference hunting on design drafts. Found via @bingsome on X.",
+    "tags": [
+      "archive",
+      "poster",
+      "packaging"
+    ],
+    "source": "https://eastasiangraphicsarchive.com"
+  },
+  {
+    "title": "Tommy Trinh, personal site",
+    "date": "2026-11-23",
+    "image": "images/tommy-trinh.jpg",
+    "alt": "Open Graph preview of tommytrinh.me",
+    "note": "Living-status homepage: live age counter, Working / Listening / Reading rows, j/k and t keyboard shortcuts, and a Documenting feed pulled from Are.na.",
+    "tags": [
+      "portfolio",
+      "interface"
+    ],
+    "source": "https://tommytrinh.me/"
+  },
+  {
+    "title": "Dara Miao, personal site",
+    "date": "2026-11-23",
+    "image": "images/dara-miao.png",
+    "alt": "Open Graph preview of daramiao.com",
+    "note": "Golf-scorecard section that opens on scroll, a GitHub contribution graph, dated storytelling cards, and an 'Are you an agent?' llms.txt link.",
+    "tags": [
+      "portfolio",
+      "interface"
+    ],
+    "source": "https://www.daramiao.com/"
+  },
+  {
     "title": "Gradient study, warm to deep violet",
     "date": "2026-09-14",
     "image": "images/01-gradient-study.svg",
     "alt": "Orange to violet gradient with a soft overlapping circle",
     "note": "Two-stop gradients still carry a poster if the hue travel is long enough.",
-    "tags": ["color", "poster"],
+    "tags": [
+      "color",
+      "poster"
+    ],
     "source": ""
   },
   {
@@ -14,7 +54,10 @@
     "image": "images/02-type-specimen.svg",
     "alt": "Dark navy panel with a bright blue gradient and a rule",
     "note": "Specimen pages that show one glyph at display size beat full alphabet grids.",
-    "tags": ["type", "editorial"],
+    "tags": [
+      "type",
+      "editorial"
+    ],
     "source": ""
   },
   {
@@ -23,7 +66,9 @@
     "image": "images/03-motion-frames.svg",
     "alt": "Acid green to black gradient square",
     "note": "Stepped easing reads as intentional when the frame count is low and constant.",
-    "tags": ["motion"],
+    "tags": [
+      "motion"
+    ],
     "source": ""
   },
   {
@@ -32,7 +77,10 @@
     "image": "images/04-editorial-grid.svg",
     "alt": "Cream panel with a red gradient wash",
     "note": "The break lands on the third column, which keeps the rag from squaring off.",
-    "tags": ["editorial", "layout"],
+    "tags": [
+      "editorial",
+      "layout"
+    ],
     "source": ""
   },
   {
@@ -41,7 +89,9 @@
     "image": "images/05-color-field.svg",
     "alt": "Violet to pink gradient field",
     "note": "Saved for the midpoint — it stays saturated instead of going muddy.",
-    "tags": ["color"],
+    "tags": [
+      "color"
+    ],
     "source": ""
   },
   {
@@ -50,7 +100,10 @@
     "image": "images/06-interface-detail.svg",
     "alt": "Near-black panel with a mint green gradient",
     "note": "Focus rings offset by 3px outside the control read much better on dark UI.",
-    "tags": ["interface", "layout"],
+    "tags": [
+      "interface",
+      "layout"
+    ],
     "source": ""
   }
 ]
