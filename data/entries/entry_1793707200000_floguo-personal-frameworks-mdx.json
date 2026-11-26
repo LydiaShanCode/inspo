@@ -1,0 +1,20 @@
+{
+  "id": "entry_1793707200000_floguo-personal-frameworks-mdx",
+  "title": "floguo — personal frameworks from MDX files",
+  "type": "link",
+  "images": [],
+  "sourceUrl": "https://x.com/floguo/status/2117686684464923021",
+  "tags": [
+    "mdx",
+    "frameworks",
+    "notes",
+    "case-study",
+    "nextjs",
+    "writing"
+  ],
+  "category": "writing",
+  "note": "Her thesis: build personal frameworks, not just one-off projects. floguo.com is a living collection of notes compiled from MDX files she writes herself. Her steal: case studies and framework notes as .mdx files, with the actual interactive piece embedded as a component where a screenshot would normally sit. Site: https://floguo.com",
+  "capturedDate": "2026-11-03",
+  "createdAt": "2026-11-26T17:02:37Z",
+  "updatedAt": "2026-11-26T17:02:37Z"
+}

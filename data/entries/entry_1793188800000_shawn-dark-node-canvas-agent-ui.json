@@ -1,0 +1,20 @@
+{
+  "id": "entry_1793188800000_shawn-dark-node-canvas-agent-ui",
+  "title": "shawn — dark node-canvas agent UI",
+  "type": "link",
+  "images": [],
+  "sourceUrl": "https://x.com/zzzzshawn/status/2115531925192675402",
+  "tags": [
+    "dark-mode",
+    "node-canvas",
+    "design-system",
+    "agent-ui",
+    "tokens",
+    "graph"
+  ],
+  "category": "UI",
+  "note": "Saved as a visual style to copy for a potential design system: a near-black canvas, flat 1px-border cards with no shadows, grey metadata type, and colour rationed to status dots. Logged as a complete token set that pairs with Lee Black's node-editor mechanics (ports that glow, magnetic snap, bending cables). Captured date is the post date; exact send date not on record.",
+  "capturedDate": "2026-10-28",
+  "createdAt": "2026-11-26T17:02:37Z",
+  "updatedAt": "2026-11-26T17:02:37Z"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "entry_1794398400000_theophine-draw-on-sand",
+  "title": "David Theophine — draw on sand, pull to let the waves wash it away",
+  "type": "link",
+  "images": [],
+  "sourceUrl": "https://www.linkedin.com/posts/davidtheophine_draw-on-sand-pull-to-let-the-waves-wash-activity-7526343102685618176-um8f",
+  "tags": [
+    "sand",
+    "webgl",
+    "shader",
+    "erase",
+    "play",
+    "drawing",
+    "tide"
+  ],
+  "category": "motion",
+  "note": "A WebGL shader experiment: draw on a sand surface, then pull to let waves roll in and wash the drawing away. The erase is the interaction — not a button or an undo, but a tide. She had already commented on it: Your brain is magical. Her steal: a Play-page sand-drawing canvas where visitors draw her motifs and pull to wash them clean, and the wash-away as a reset mechanic generally. LinkedIn post: https://www.linkedin.com/posts/davidtheophine_draw-on-sand-pull-to-let-the-waves-wash-activity-7526343102685618176-um8f",
+  "capturedDate": "2026-11-11",
+  "createdAt": "2026-11-26T17:02:37Z",
+  "updatedAt": "2026-11-26T17:02:37Z"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "entry_1795089600000_will-newton-prototype-playground",
+  "title": "Will Newton — Build a Prototype Playground",
+  "type": "note",
+  "images": [],
+  "sourceUrl": "https://x.com/willdjthrill/status/2123088045155242111",
+  "tags": [
+    "prototype-playground",
+    "skills",
+    "nextjs",
+    "play",
+    "rules",
+    "thumbnails"
+  ],
+  "category": "product",
+  "note": "Borderline: a skill spec, filed as a note-type entry. Will Newton's spec for one Next.js + TypeScript + Tailwind + shadcn app holding many small self-contained prototypes, built by a coding agent and governed by a rules file. Foundation: dark by default, preview deploys per PR, homepage gallery with static light/dark thumbnails (never live iframes), password gate in production, private by default. Per prototype: metadata.json, HOW_IT_WORKS.md, thin page.tsx, control panels with Reset + Randomize. She pasted the full text to save it; the X post itself could not be read (X 403). It is the system her Play page wants, and a candidate for her skills post. Full spec kept at ~/workspace/skills-inspo/prototype-playground-skill.md.",
+  "capturedDate": "2026-11-19",
+  "createdAt": "2026-11-26T17:02:37Z",
+  "updatedAt": "2026-11-26T17:02:37Z"
+}

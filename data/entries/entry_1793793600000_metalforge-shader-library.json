@@ -1,0 +1,20 @@
+{
+  "id": "entry_1793793600000_metalforge-shader-library",
+  "title": "MetalForge — shader library with sliders",
+  "type": "link",
+  "images": [],
+  "sourceUrl": "https://metalforge.xyz",
+  "tags": [
+    "shaders",
+    "sliders",
+    "effects",
+    "jelly",
+    "webgl",
+    "play"
+  ],
+  "category": "motion",
+  "note": "A large gallery of ready-made shader effects for SwiftUI, React Native and the web. Open an effect, tweak it with sliders, then take the code. It maps onto her existing finds with unusual precision: jelly for the Melike charm gloss, frost for the Fog Mirror, liquid and pond for the watercolour hero, koi for her Koi Fish piece, holo and sticker for the sticker sheet. Price shown: 29 euros; a beta MCP is advertised.",
+  "capturedDate": "2026-11-04",
+  "createdAt": "2026-11-26T17:02:37Z",
+  "updatedAt": "2026-11-26T17:02:37Z"
+}

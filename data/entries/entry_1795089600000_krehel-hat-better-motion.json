@@ -1,0 +1,20 @@
+{
+  "id": "entry_1795089600000_krehel-hat-better-motion",
+  "title": "Jakub Krehel — Hat: /better-motion skill",
+  "type": "link",
+  "images": [],
+  "sourceUrl": "https://x.com/jakubkrehel/status/2123466165204758831",
+  "tags": [
+    "motion",
+    "better-motion",
+    "skills",
+    "animation",
+    "timing",
+    "springs"
+  ],
+  "category": "motion",
+  "note": "She shared this post labelled Hat and asked to save it as skills inspo. The post itself could not be read — X returned a 403 bot-wall block on every route — so the content here was verified from the public repo instead: jakubkrehel/skills merged its newest skill /better-motion on Nov 19, 2026 (PR #68, v1.23.0). /better-motion decides whether an element should animate at all, then gives exact values: press scale 0.96, enters 150ms (small) to 450ms (modals), exits shorter, springs with zero bounce, stagger 100ms, reduced-motion gating. What Hat refers to is still open.",
+  "capturedDate": "2026-11-19",
+  "createdAt": "2026-11-26T17:02:37Z",
+  "updatedAt": "2026-11-26T17:02:37Z"
+}

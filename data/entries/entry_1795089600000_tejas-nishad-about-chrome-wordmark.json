@@ -1,0 +1,20 @@
+{
+  "id": "entry_1795089600000_tejas-nishad-about-chrome-wordmark",
+  "title": "Tejas Nishad — About page liquid-chrome wordmark",
+  "type": "link",
+  "images": [],
+  "sourceUrl": "https://www.linkedin.com/posts/tejasnishad_about-page-for-my-portfolio-is-now-completely-activity-7529128919728336897-8wq8",
+  "tags": [
+    "chrome",
+    "wordmark",
+    "about-page",
+    "webgl",
+    "load-time",
+    "portfolio"
+  ],
+  "category": "motion",
+  "note": "Borderline: she asked how he did it, not to save it — filed here as the technique breakdown she requested. A stark white About page: a dotted wavy curve draws itself, then becomes his name in Devanagari as thick liquid-chrome 3D lettering overlaid with blue Bezier outlines; the wordmark then warps, stretches and tangles into a dense knot. He cut load time from ~100ms to ~25ms by dropping OGL. What could NOT be verified: the new site is not live at any URL found, and he never says what replaced OGL, so whether the chrome is raw WebGL, pre-rendered or SVG/CSS is unverified. Offered to file as a portfolio find; unanswered.",
+  "capturedDate": "2026-11-19",
+  "createdAt": "2026-11-26T17:02:37Z",
+  "updatedAt": "2026-11-26T17:02:37Z"
+}

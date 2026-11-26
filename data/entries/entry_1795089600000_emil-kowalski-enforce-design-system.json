@@ -1,0 +1,20 @@
+{
+  "id": "entry_1795089600000_emil-kowalski-enforce-design-system",
+  "title": "Emil Kowalski — enforce rules so agents use your design system",
+  "type": "link",
+  "images": [],
+  "sourceUrl": "https://x.com/emilkowalski/status/2123467231510057157",
+  "tags": [
+    "design-system",
+    "enforcement",
+    "lint",
+    "skills",
+    "agents",
+    "rules"
+  ],
+  "category": "UI",
+  "note": "To get an agent to use your design system properly, you need to enforce rules: lint rules and strict type-safe props, CI checks that fail on component misuse, docs on when and how to use each component, and semantic tokens. She saved it for skills inspo. The angle: the enforcement layer for her skills post — her skills tell an agent what to do, Emil's rules are how you make it actually do it.",
+  "capturedDate": "2026-11-19",
+  "createdAt": "2026-11-26T17:02:37Z",
+  "updatedAt": "2026-11-26T17:02:37Z"
+}

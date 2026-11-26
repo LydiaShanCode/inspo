@@ -1,0 +1,20 @@
+{
+  "id": "entry_1795176000000_gleam-motion-guidelines",
+  "title": "Gleam motion guidelines — one curve, three timings",
+  "type": "link",
+  "images": [],
+  "sourceUrl": "https://joisti.com/gleam/motion",
+  "tags": [
+    "motion",
+    "guidelines",
+    "brand",
+    "joisti",
+    "curve",
+    "timing"
+  ],
+  "category": "motion",
+  "note": "The Motion page of Alex @alxcbb's Gleam brand-guidelines site, built with his tool Joisti. Saved as inspo for guidelines brand. The steal is the page itself: a whole motion system expressed as one curve + three timings + three principles, with live demos per component. Pairs with the /better-motion skill saved the same night. It feeds the docs-site skill idea (PDF brand guidelines to interactive docs page), where the gap Alex named is that generated pages come out generic. Same site as the Applications page saved Nov 17.",
+  "capturedDate": "2026-11-20",
+  "createdAt": "2026-11-26T17:02:37Z",
+  "updatedAt": "2026-11-26T17:02:37Z"
+}

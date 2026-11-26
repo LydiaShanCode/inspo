@@ -1,0 +1,20 @@
+{
+  "id": "entry_1793361600000_voy-hero-gallery-canvas",
+  "title": "Voy Design — hero gallery canvas",
+  "type": "link",
+  "images": [],
+  "sourceUrl": "https://design.joinvoy.com/#join",
+  "tags": [
+    "canvas",
+    "drag",
+    "play-page",
+    "gallery",
+    "pan",
+    "layout"
+  ],
+  "category": "UI",
+  "note": "A full-viewport dark canvas of 19 scattered artworks you drag to pan, fixed headline and nav, items uncaptioned and unlinked. Her use, by her own call: a display for her Play page, not Work — built out with her 5 Play items, fixing Voy's flaws with captions, real demo links, a fixed Index and a Reset view control.",
+  "capturedDate": "2026-10-30",
+  "createdAt": "2026-11-26T17:02:37Z",
+  "updatedAt": "2026-11-26T17:02:37Z"
+}

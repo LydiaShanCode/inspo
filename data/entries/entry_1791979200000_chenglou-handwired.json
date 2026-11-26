@@ -1,0 +1,20 @@
+{
+  "id": "entry_1791979200000_chenglou-handwired",
+  "title": "Handwired — @_chenglou",
+  "type": "link",
+  "images": [],
+  "sourceUrl": "https://x.com/_chenglou/status/2110557373651931267",
+  "tags": [
+    "neural-net",
+    "javascript",
+    "mini-os",
+    "learned-gallery",
+    "playground",
+    "interaction"
+  ],
+  "category": "product",
+  "note": "Normal JavaScript converted to a neural net with hand-written weights — no training, exact outputs, in-browser. Demos include a mini OS with overlapping windows and a Learned Gallery where dragging rectangles auto-aligns photos in real time. Her steals: a Learned Gallery playground with a snap/looseness slider, and a portfolio-as-mini-OS homepage. Demo: https://chenglou.me/handwired/ — source: https://github.com/chenglou/handwired",
+  "capturedDate": "2026-10-14",
+  "createdAt": "2026-11-26T17:02:37Z",
+  "updatedAt": "2026-11-26T17:02:37Z"
+}

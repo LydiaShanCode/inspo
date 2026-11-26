@@ -1,0 +1,20 @@
+{
+  "id": "entry_1791547200000_shuding-next-satori",
+  "title": "Next Satori — @shuding",
+  "type": "link",
+  "images": [],
+  "sourceUrl": "https://x.com/shuding/status/2108462990509187402",
+  "tags": [
+    "satori",
+    "svg",
+    "og-images",
+    "vercel",
+    "layout",
+    "typography"
+  ],
+  "category": "UI",
+  "note": "Next Satori (HTML/CSS to SVG) adding grid, sticky/fixed, float/clear, blend modes, 3D transform, conic gradients and calc/min/max/clamp; the announcement video itself is rendered frame-by-frame with Satori as SVG. Her steals: dynamic OG/share images for each project page in her real fonts and colours, and the video's mosaic grid and numbered-scene style for the homepage grid.",
+  "capturedDate": "2026-10-09",
+  "createdAt": "2026-11-26T17:02:37Z",
+  "updatedAt": "2026-11-26T17:02:37Z"
+}

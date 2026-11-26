@@ -1,0 +1,20 @@
+{
+  "id": "entry_1794657600000_nichy-first-frame-before-motion",
+  "title": "nichy — show the first frame before the motion is ready",
+  "type": "link",
+  "images": [],
+  "sourceUrl": "https://x.com/0xnichy/status/2121646368284651948",
+  "tags": [
+    "loading",
+    "poster-frame",
+    "heretics",
+    "performance",
+    "video",
+    "first-frame"
+  ],
+  "category": "UI",
+  "note": "Entry #2 in her design heretics collection. A design-engineering tip for loading visual content: show the first frame before the motion is ready — for video, use a poster image until a frame is ready; for a JS composition, render its initial state in HTML, then let React take over. Why she keeps it: directly load-bearing for her own portfolio rebuild — every Play piece gets a poster frame before the motion takes over.",
+  "capturedDate": "2026-11-14",
+  "createdAt": "2026-11-26T17:02:37Z",
+  "updatedAt": "2026-11-26T17:02:37Z"
+}

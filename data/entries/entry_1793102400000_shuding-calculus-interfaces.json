@@ -1,0 +1,20 @@
+{
+  "id": "entry_1793102400000_shuding-calculus-interfaces",
+  "title": "Calculus of Interfaces — @shuding",
+  "type": "link",
+  "images": [],
+  "sourceUrl": "https://x.com/shuding/status/2115082810738479363",
+  "tags": [
+    "layout",
+    "motion",
+    "framer-motion",
+    "project-grid",
+    "smooth-transitions",
+    "react"
+  ],
+  "category": "motion",
+  "note": "A React dashboard compiled into a real math function: exact card velocity on prop changes, gradient search for layout goals, proof a layout never breaks, all visual breakpoints, smoothest path between layouts. Her steal: project-grid filter/resize transitions where cards glide to new rows and lift slightly mid-flight instead of teleporting, built with Motion layout. Demo: http://calculus-of-interfaces.vercel.app",
+  "capturedDate": "2026-10-27",
+  "createdAt": "2026-11-26T17:02:37Z",
+  "updatedAt": "2026-11-26T17:02:37Z"
+}

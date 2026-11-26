@@ -1,0 +1,19 @@
+{
+  "id": "entry_1795089600000_pixeljanitor-post-unread",
+  "title": "pixeljanitor — X post (could not be read)",
+  "type": "note",
+  "images": [],
+  "sourceUrl": "https://x.com/pixeljanitor/status/2123512999810089444",
+  "tags": [
+    "x-post",
+    "unread",
+    "blocked",
+    "skill-request",
+    "pending"
+  ],
+  "category": "UI",
+  "note": "BLOCKED — no verified content. She asked to save this X post and have a skill built from it, but X returned a 403 bot-wall block on every route tried (post URL, home page, author profile, fresh browser, web search), so no post text, date or media was captured and nothing was filed. Do not treat this entry as a summary of the post — only the URL and the fact that it could not be read are on record.",
+  "capturedDate": "2026-11-19",
+  "createdAt": "2026-11-26T17:02:37Z",
+  "updatedAt": "2026-11-26T17:02:37Z"
+}
