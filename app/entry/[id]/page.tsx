@@ -154,14 +154,33 @@ export default function EntryPage() {
                 key={index}
                 className="relative w-full rounded-sm overflow-hidden"
               >
-                <Image
-                  src={image}
-                  alt={`${entry.title} - image ${index + 1}`}
-                  width={1200}
-                  height={800}
-                  className="w-full h-auto"
-                  priority={index === 0}
-                />
+                {entry.sourceUrl ? (
+                  <a
+                    href={entry.sourceUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    title="Open original"
+                    className="block cursor-pointer"
+                  >
+                    <Image
+                      src={image}
+                      alt={`${entry.title} - image ${index + 1}`}
+                      width={1200}
+                      height={800}
+                      className="w-full h-auto"
+                      priority={index === 0}
+                    />
+                  </a>
+                ) : (
+                  <Image
+                    src={image}
+                    alt={`${entry.title} - image ${index + 1}`}
+                    width={1200}
+                    height={800}
+                    className="w-full h-auto"
+                    priority={index === 0}
+                  />
+                )}
               </div>
             ))}
           </div>
