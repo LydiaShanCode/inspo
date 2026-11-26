@@ -28,7 +28,7 @@ export default function EntryPage() {
 
   const fetchEntry = async () => {
     try {
-      const response = await fetch(`/api/entries/${id}`);
+      const response = await fetch(`/data/entries/${id}.json`);
       if (!response.ok) {
         throw new Error('Entry not found');
       }

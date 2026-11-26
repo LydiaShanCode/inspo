@@ -3,8 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "node scripts/build-entries.mjs && next dev",
+    "prebuild": "node scripts/build-entries.mjs",
     "build": "next build",
+    "vercel-build": "npm run build",
     "start": "next start",
     "lint": "eslint"
   },
