@@ -1,6 +1,7 @@
 'use client';
 
-import { Search } from 'lucide-react';
+import { useEffect, useRef, useState } from 'react';
+import { Search, X } from 'lucide-react';
 import { Category } from '@/lib/types';
 
 interface CosmosHeaderProps {
@@ -19,10 +20,10 @@ export function CosmosHeader({ searchQuery, onSearch, selectedCategory, onCatego
         <div className="flex items-center gap-6 h-16">
           {/* Logo and categories */}
           <div className="flex items-center gap-6">
-            <div className="flex items-center gap-2">
-              <div className="w-6 h-6 bg-black rounded-sm" />
-              <span className="font-medium text-sm">inspo</span>
-            </div>
+            <a href="/" className="flex items-center gap-1.5 select-none" aria-label="inspo home">
+              <span className="deboss-emoji text-[22px] leading-none" aria-hidden="true">💫</span>
+              <span className="deboss-text font-semibold text-[17px] tracking-tight leading-none">inspo</span>
+            </a>
             
             <div className="hidden lg:flex items-center gap-1">
               {CATEGORIES.map((cat) => {
@@ -44,26 +45,14 @@ export function CosmosHeader({ searchQuery, onSearch, selectedCategory, onCatego
             </div>
           </div>
           
-          {/* Centered search */}
-          <div className="flex-1 flex justify-center max-w-2xl mx-auto">
-            <div className="relative w-full max-w-xl">
-              <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-4 h-4 text-muted-foreground" />
-              <input
-                type="search"
-                placeholder="Search inspiration..."
-                value={searchQuery}
-                onChange={(e) => onSearch(e.target.value)}
-                className="w-full h-10 pl-11 pr-4 bg-muted rounded-full text-sm border-0 focus:outline-none focus:ring-2 focus:ring-ring"
-              />
-            </div>
+          {/* Expanding search */}
+          <div className="ml-auto flex items-center">
+            <ExpandingSearch value={searchQuery} onChange={onSearch} />
           </div>
-          
-          {/* Right side actions (placeholder) */}
-          <div className="w-6" />
         </div>
         
         {/* Mobile categories */}
-        <div className="lg:hidden overflow-x-auto pb-3 -mx-5 px-5">
+        <div className="lg:hidden overflow-x-auto no-scrollbar pb-3 -mx-5 px-5">
           <div className="flex items-center gap-1 min-w-max">
             {CATEGORIES.map((cat) => {
               const isActive = cat === 'All' ? !selectedCategory : selectedCategory === cat;
@@ -85,5 +74,64 @@ export function CosmosHeader({ searchQuery, onSearch, selectedCategory, onCatego
         </div>
       </div>
     </header>
+  );
+}
+
+function ExpandingSearch({ value, onChange }: { value: string; onChange: (q: string) => void }) {
+  const [open, setOpen] = useState(Boolean(value));
+  const inputRef = useRef<HTMLInputElement>(null);
+
+  useEffect(() => {
+    if (open) inputRef.current?.focus();
+  }, [open]);
+
+  const close = () => {
+    onChange('');
+    setOpen(false);
+  };
+
+  return (
+    <div
+      className={`relative flex items-center h-10 rounded-full transition-[width,background-color] duration-300 ease-out ${
+        open ? 'w-[min(22rem,70vw)] bg-muted' : 'w-10 bg-transparent hover:bg-muted'
+      }`}
+    >
+      <button
+        type="button"
+        aria-label={open ? 'Search' : 'Open search'}
+        onClick={() => (open ? inputRef.current?.focus() : setOpen(true))}
+        className="absolute left-0 top-0 h-10 w-10 flex items-center justify-center rounded-full text-muted-foreground hover:text-foreground"
+      >
+        <Search className="w-4 h-4" />
+      </button>
+      <input
+        ref={inputRef}
+        type="search"
+        placeholder="Search inspiration..."
+        value={value}
+        tabIndex={open ? 0 : -1}
+        onChange={(e) => onChange(e.target.value)}
+        onBlur={() => {
+          if (!value) setOpen(false);
+        }}
+        onKeyDown={(e) => {
+          if (e.key === 'Escape') close();
+        }}
+        className={`h-10 w-full bg-transparent pl-10 pr-9 text-sm border-0 focus:outline-none transition-opacity duration-200 [&::-webkit-search-cancel-button]:hidden ${
+          open ? 'opacity-100' : 'opacity-0 pointer-events-none'
+        }`}
+      />
+      {open && value && (
+        <button
+          type="button"
+          aria-label="Clear search"
+          onMouseDown={(e) => e.preventDefault()}
+          onClick={close}
+          className="absolute right-2 h-6 w-6 flex items-center justify-center rounded-full text-muted-foreground hover:text-foreground"
+        >
+          <X className="w-3.5 h-3.5" />
+        </button>
+      )}
+    </div>
   );
 }
