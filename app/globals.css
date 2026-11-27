@@ -104,10 +104,6 @@
 
 /* Hide horizontal scroll bars site-wide while keeping horizontal scrolling
    (trackpad, touch swipe, shift+wheel). */
-html,
-body {
-  overflow-x: auto;
-}
 *::-webkit-scrollbar:horizontal {
   height: 0;
   display: none;
