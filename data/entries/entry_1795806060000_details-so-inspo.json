@@ -1,0 +1,30 @@
+{
+  "id": "entry_1795806060000_details-so-inspo",
+  "title": "Details.so: web design inspiration library of real site details",
+  "type": "screenshot",
+  "images": [
+    "/uploads/details-so-inspo.jpg"
+  ],
+  "sourceUrl": "https://www.details.so/inspo",
+  "tags": [
+    "reference",
+    "inspiration-library",
+    "resource",
+    "web-design",
+    "hero",
+    "footer",
+    "navigation",
+    "page-transition",
+    "section-transition",
+    "scroll-animation",
+    "preloader",
+    "micro-interaction",
+    "mcp",
+    "code-snippets"
+  ],
+  "category": "UI",
+  "note": "Inspiration and reference site to come back to. Details.so ('The details behind the world's best websites. Explore exceptional design. Make it your own with AI. Updated weekly.') catalogues parts of live production sites, filed by the exact detail: hero, footer, navigation, buttons, page and section transitions, preloaders, scroll animations, cursor interactions, plus styles like editorial, minimal and experimental. 3,600+ examples. Also has a Vault of paste-ready code (transitions, buttons, sections) and an MCP so AI tools can search it. Free tier shows the latest; Pro $9/month, Vault $19/month (as listed 2026-11-27).",
+  "capturedDate": "2026-11-27T13:51:00-05:00",
+  "createdAt": "2026-11-27T13:51:00-05:00",
+  "updatedAt": "2026-11-27T13:51:00-05:00"
+}
