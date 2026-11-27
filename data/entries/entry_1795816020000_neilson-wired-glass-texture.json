@@ -1,0 +1,33 @@
+{
+  "id": "entry_1795816020000_neilson-wired-glass-texture",
+  "title": "neilson: wired frosted-glass shader over green foliage",
+  "type": "link",
+  "images": [
+    "/uploads/neilson-wired-glass-texture.jpg"
+  ],
+  "videos": [
+    "/uploads/neilson-wired-glass-texture.mp4"
+  ],
+  "sourceUrl": "https://x.com/neilsonks/status/2118757539957633115",
+  "tags": [
+    "glass",
+    "texture",
+    "frosted-glass",
+    "hammered-glass",
+    "wired-glass",
+    "grid",
+    "refraction",
+    "shader",
+    "webgl",
+    "foliage",
+    "green",
+    "blur",
+    "light",
+    "realtime"
+  ],
+  "category": "brand",
+  "note": "Glass texture inspo. A real-time browser piece (running on localhost) by neilson (games, product @theworldlabs & @amd, oakwood st. studio), posted 2026-11-06 with no caption: a pane of pebbled, frosted wired glass with a fine grid of wire lines over out-of-focus green leaves; a bright hotspot of light slides across and the foliage refracts and blurs through the bumps. Filmed on a phone pointed at the monitor. 7.5 s clip, no sound. Thumbnail is a frame from the clip.",
+  "capturedDate": "2026-11-27T16:27:00-05:00",
+  "createdAt": "2026-11-27T16:27:00-05:00",
+  "updatedAt": "2026-11-27T16:27:00-05:00"
+}
