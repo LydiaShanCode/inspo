@@ -1,0 +1,27 @@
+{
+  "id": "entry_1795744440000_rava-labs-menu-blur",
+  "title": "Rava Labs: pill nav that expands into a sharp menu card over a frosted, blurred page",
+  "type": "screenshot",
+  "images": [
+    "/uploads/rava-labs-menu-blur.jpg"
+  ],
+  "sourceUrl": "https://www.ravalabs.com/",
+  "tags": [
+    "menu",
+    "blur",
+    "backdrop-blur",
+    "frosted-glass",
+    "navigation",
+    "pill-nav",
+    "micro-interaction",
+    "minimal",
+    "white",
+    "light-grey",
+    "design-studio"
+  ],
+  "category": "UI",
+  "note": "Menu blur animation inspo for Lydia. Rava Labs (independent design studio): the white pill nav at top center expands into a crisp grey-white card (studio blurb, retainer pricing, Mail and Schedule a call buttons) while the whole page behind it, giant RAVA LABS type, scattered LABS marks and client logos, softens under a heavy backdrop blur. Screenshot shows the menu open.",
+  "capturedDate": "Thu 2026-11-26 8:54 PM EST (UTC-05:00)",
+  "createdAt": "Thu 2026-11-26 8:54 PM EST (UTC-05:00)",
+  "updatedAt": "Thu 2026-11-26 8:54 PM EST (UTC-05:00)"
+}
