@@ -1,0 +1,33 @@
+{
+  "id": "entry_1795805880000_viktor-portfolio-timeline",
+  "title": "Viktor T. (errormade): portfolio projects timeline with smooth zoom into a product-grid case study",
+  "type": "link",
+  "images": [
+    "/uploads/viktor-portfolio-timeline.jpg"
+  ],
+  "videos": [
+    "/uploads/viktor-portfolio-timeline.mp4"
+  ],
+  "sourceUrl": "https://x.com/iamerrormade/status/2126280581004587412",
+  "tags": [
+    "portfolio",
+    "projects-timeline",
+    "project-list",
+    "case-study",
+    "page-transition",
+    "zoom-transition",
+    "smooth-scroll",
+    "minimal",
+    "white",
+    "monochrome",
+    "small-type",
+    "product-grid",
+    "fashion",
+    "motion"
+  ],
+  "category": "UI",
+  "note": "Portfolio / projects timeline inspo. Viktor T. (independent creator, errormade.tech) posted 'Smooth enough?' on 2026-11-27. A sparse white portfolio lists projects vertically in tiny type with numbered steps (01 / 02 / 03) and a thin red marker on the active one (Krakatau, solutions website, MNLT Archive, Forgotten Garden, Memoria; each tagged like 'digital, art direction'). Hovering shows a preview image, and opening a project zooms smoothly into a full case study: a grid of black clothing cut-outs in grey circles that expands into detail views. 15.8 s video with sound. Thumbnail is a frame from the video.",
+  "capturedDate": "2026-11-27T13:48:00-05:00",
+  "createdAt": "2026-11-27T13:48:00-05:00",
+  "updatedAt": "2026-11-27T13:48:00-05:00"
+}
