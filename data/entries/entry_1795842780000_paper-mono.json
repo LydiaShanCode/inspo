@@ -1,0 +1,24 @@
+{
+  "id": "entry_1795842780000_paper-mono",
+  "title": "Paper Mono by Paper",
+  "type": "screenshot",
+  "images": [
+    "/uploads/paper-mono.jpg"
+  ],
+  "sourceUrl": "https://paper.design/mono",
+  "tags": [
+    "font",
+    "typeface",
+    "monospace",
+    "variable",
+    "coding-ligatures",
+    "open-source",
+    "free",
+    "paper.design"
+  ],
+  "category": "typography",
+  "note": "Free, open-source monospace family by Paper (paper.design). Variable weight axis 100-800 (8 weights), 800 glyphs, 100+ languages. Flat terminals, gently squared curves and a balanced x-height give it the feel of a classic sans; made for headlines, text, UI and code. Stylistic sets: SS01 coding ligatures, SS02 duospace glyphs, SS03 narrow space, SS04 small arrows, CV01 single-story a, slashed zero. Site hero shows outlined glyphs on a metrics grid. Found via @praveenjuge's font list (Nov 27, 2026). Thumbnail is a screenshot of the site.",
+  "capturedDate": "2026-11-28T00:13:00-05:00",
+  "createdAt": "2026-11-28T00:13:00-05:00",
+  "updatedAt": "2026-11-28T00:13:00-05:00"
+}
