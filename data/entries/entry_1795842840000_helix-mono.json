@@ -1,0 +1,25 @@
+{
+  "id": "entry_1795842840000_helix-mono",
+  "title": "Helix Mono by HelixDB",
+  "type": "screenshot",
+  "images": [
+    "/uploads/helix-mono.jpg"
+  ],
+  "sourceUrl": "https://helixdb.github.io/helix-mono/",
+  "tags": [
+    "font",
+    "typeface",
+    "monospace",
+    "italics",
+    "open-source",
+    "free",
+    "ofl",
+    "jetbrains-mono",
+    "spec-sheet"
+  ],
+  "category": "typography",
+  "note": "Free monospace typeface by HelixDB, based on JetBrains Mono NL 2.304. 6 weights (200-700) with italics, 12 styles, WOFF2 + TTF, SIL Open Font License 1.1. The site itself is a nice reference: styled like a product manual ('Model HM-1', numbered sections, dotted-leader spec table). Found via @praveenjuge's font list (Nov 27, 2026). Thumbnail is a screenshot of the site.",
+  "capturedDate": "2026-11-28T00:13:00-05:00",
+  "createdAt": "2026-11-28T00:13:00-05:00",
+  "updatedAt": "2026-11-28T00:13:00-05:00"
+}
